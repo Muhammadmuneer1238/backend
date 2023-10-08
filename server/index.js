@@ -20,12 +20,12 @@ const server=http.createServer(app)
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: 'https://frontend-client-jspfkt790-muhammadmuneer1238s-projects.vercel.app',
+  origin: 'https://frontend-client-qqq05of0z-muhammadmuneer1238s-projects.vercel.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 
 app.use(cors(corsOptions));
-server.listen(3000, () => {
+app.listen(3000, () => {
     console.log("Server connected to the port");
 });
 app.use(express.json())
