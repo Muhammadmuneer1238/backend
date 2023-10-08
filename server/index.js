@@ -20,7 +20,7 @@ const server=http.createServer(app)
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: 'https://frontend-client-nbr8zkxeq-muhammadmuneer1238s-projects.vercel.app',
+  origin: 'https://frontend-client-gfzsn2998-muhammadmuneer1238s-projects.vercel.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 
